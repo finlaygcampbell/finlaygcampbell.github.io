@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /assets
+Disallow: /images
+Allow: /
+
+Sitemap: http://finlaycampbell.io/sitemap.xml
