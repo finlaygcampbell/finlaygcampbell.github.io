@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Travel — Finlay Goodwin Campbell</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      crossorigin=""
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/travel.css" />
+  </head>
+
+  <body class="is-preload">
+    <header id="header">
+      <div class="inner">
+        <a href="index.html" class="image avatar">
+          <img
+            src="https://res.cloudinary.com/dgc6fh4tx/image/upload/v1725531786/avatar_fagdyt.png"
+            alt="Finlay Campbell Profile Picture"
+          />
+        </a>
+
+        <h1>
+          <strong>Finlay Goodwin Campbell</strong>
+          <p style="font-size: 1em;">
+            <i class="fas fa-map-marker-alt"></i> Canberra, Australia
+          </p>
+        </h1>
+      </div>
+    </header>
+
+    <div id="main">
+      <section>
+        <header class="major">
+          <h2>Travel</h2>
+        </header>
+
+        <p>
+          A visual map of routes flown. This will evolve into a lightweight travel journal over time.
+        </p>
+
+        <div id="travel-map" aria-label="World map showing flight routes"></div>
+
+        <div class="map-legend" aria-label="Map legend">
+          <div class="item"><span class="swatch past"></span> Past trips</div>
+          <div class="item"><span class="swatch future"></span> Upcoming trips</div>
+        </div>
+
+        <p id="map-status" class="map-status" aria-live="polite"></p>
+
+        <ul class="actions" style="margin-top: 1.5em;">
+          <li>
+            <a href="index.html" class="button small back-home">Back to Home</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/finlaycampbell/"
+              class="icon brands fa-linkedin"
+              rel="noopener noreferrer"
+              target="_blank"
+            ><span class="label">LinkedIn</span></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/finlaygcampbell"
+              class="icon brands fa-github"
+              rel="noopener noreferrer"
+              target="_blank"
+            ><span class="label">GitHub</span></a>
+          </li>
+          <li><a href="mailto:hello@finlaygcampbell.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+      </div>
+    </footer>
+
+   <script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.geodesic@2.7.1/dist/leaflet.geodesic.umd.min.js"></script>
+
+<script src="assets/js/travel-map.js"></script>
+  </body>
+</html>
